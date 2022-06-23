@@ -1,5 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.inshorts">
+
+  <!-- App requires internet access -->
+  <uses-permission android:name="android.permission.INTERNET"/>
+
    <application
         android:label="inshorts"
         android:name="${applicationName}"
